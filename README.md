@@ -12,7 +12,7 @@ This is a module to interact with REST APIs using Python Requests and JSON.
 {u'version': u'2.0', u'response': [{u'info1': None, u'info2': "something" }]}
 </pre>
 
-# HTTP PUSH (with basic authentication):
+# HTTP PUSH (with basic auth):
 <pre>
 >>> from rest_tools import *
 >>> username = "test"
