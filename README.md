@@ -2,7 +2,7 @@ rest_tools
 ======
 
 # Description:
-This is a module to interact with REST APIs using Python Requests and JSON.
+This is a module to interact with REST APIs using Python Requests and JSON. It currently supports basic authentication.
 
 # HTTP GET:
 <pre>
