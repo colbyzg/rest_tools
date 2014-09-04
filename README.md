@@ -2,9 +2,9 @@ rest_tools
 ======
 
 # Description:
-This is a module to interact with REST APIs using Python Requests and JSON. It currently supports basic authentication.
+This is a module to interact with REST APIs using Python Requests and JSON. It will do HTTP GETs or PUTs and returns JSON output. It currently supports basic authentication.
 
-# HTTP GET:
+# HTTP GET Example:
 <pre>
 >>> from rest_tools import *
 >>> j = rest_get("http://www.fakeapi.com/api/v2/info/")
@@ -12,7 +12,7 @@ This is a module to interact with REST APIs using Python Requests and JSON. It c
 {u'version': u'2.0', u'response': [{u'info1': None, u'info2': "something" }]}
 </pre>
 
-# HTTP PUSH (with basic auth):
+# HTTP PUSH Example (with basic auth):
 <pre>
 >>> from rest_tools import *
 >>> username = "test"
