@@ -20,6 +20,6 @@ This is a module to interact with REST APIs using Python Requests and JSON.
 ...             "role": "Server", 
 ...             "roleSource": "manual"
 ...             } 
->>> j = rest_put("http://www.fakeapi.com/api/v2/device/", payload)
+>>> rest_put("http://www.fakeapi.com/api/v2/device/", payload)
 {u'version': u'2.0', u'response': u'Number of records updated for role [d07bb3fb-351b-4cf6-8770-f83b66a1a0]'}
 </pre>
