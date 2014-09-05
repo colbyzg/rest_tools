@@ -12,8 +12,7 @@ def rest_get(url, user="", passwd=""):
 		r = requests.get(url, auth=auth)
 	else:
 		r = requests.get(url)
-	j = json.loads(r.content)
-	return j
+	return json.loads(r.content)
 
 # Sending JSON data with an HTTP PUT
 def rest_put(url, payload, user="", passwd=""):
@@ -23,5 +22,4 @@ def rest_put(url, payload, user="", passwd=""):
 		r = requests.put(url, data=json.dumps(payload), auth=auth, headers=my_headers)
 	else:
 		r = requests.put(url, data=json.dumps(payload), headers=my_headers)
-	j = json.loads(r.content)
-	return j
+	return json.loads(r.content)
